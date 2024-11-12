@@ -29,8 +29,14 @@ class _UserListScreenState extends State<UserListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('User List',
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+        title: Text(
+          'User List',
+          style: TextStyle(
+            fontSize: 24,
+            fontWeight: FontWeight.bold,
+            color: Colors.white, // Set text color to white
+          ),
+        ),
         backgroundColor: Colors.indigoAccent,
         elevation: 0,
       ),

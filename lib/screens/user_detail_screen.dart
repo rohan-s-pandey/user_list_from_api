@@ -34,7 +34,13 @@ class UserDetailScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(user.name),
+        title: Text(user.name,
+            style: TextStyle(
+              fontSize: 24,
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+            )),
+        backgroundColor: Colors.indigoAccent,
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),
